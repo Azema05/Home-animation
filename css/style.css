@@ -1,0 +1,124 @@
+#d1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    border-bottom: 150px solid red;
+    animation: d1 5s forwards;
+    z-index: 1;
+}
+
+@keyframes d1 {
+    0% {}
+
+    100% {
+        left: 35%;
+        top: 20%;
+    }
+}
+
+
+#d2 {
+    position: absolute;
+    height: 100px;
+    width: 30px;
+    top: 0;
+    left: 50%;
+    background-color: red;
+    animation: d2 5s forwards;
+}
+
+
+@keyframes d2 {
+    0% {}
+
+    100% {
+        left: 50%;
+        top: 18%;
+    }
+}
+
+
+#d3 {
+    position: absolute;
+    height: 250px;
+    width: 200px;
+    top: 35%;
+    right: 0;
+    background-color: rgb(238, 190, 131);
+    animation: d3 5s forwards;
+}
+
+
+@keyframes d3 {
+    0% {}
+
+    100% {
+        right: 46.7%;
+        top: 40%;
+    }
+}
+
+
+#d4 {
+    position: absolute;
+    height: 100px;
+    width: 55px;
+    background-color: rgb(172, 170, 170);
+    bottom: 0;
+    right: 30%;
+    animation: d4 5s forwards;
+}
+
+
+@keyframes d4 {
+    0% {}
+
+    100% {
+        right: 48%;
+        bottom: 25%;
+    }
+}
+
+#d5 {
+    position: absolute;
+    height: 80px;
+    width: 70px;
+    background-color: orange;
+    bottom: 0;
+    left: 35%;
+    animation: d5 5s forwards;
+}
+
+@keyframes d5 {
+    0% {}
+
+    100% {
+        left: 41%;
+        bottom: 37%;
+    }
+}
+
+
+#d6 {
+    position: absolute;
+    height: 100px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: rgb(243, 237, 224);
+    bottom: 35%;
+    left: 0;
+    animation: d6 5s forwards;
+    z-index: 2;
+}
+
+
+@keyframes d6 {
+    0% {}
+
+    100% {
+        left: 43.4%;
+        bottom: 59%;
+    }
+}
